@@ -3,9 +3,7 @@ import "./style.css";
 
 const Footer = () => (
 	<footer className = "page-footer">
-		<div className = "container-fluid text-center">
-			<p>Google Book Search</p>
-		</div>	
+		<p>Google Book Search </p>
 	</footer>
 );
 

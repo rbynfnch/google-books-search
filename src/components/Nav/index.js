@@ -2,7 +2,8 @@ import React from "react";
 
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-primary bg-primary">
+        <nav className="navbar navbar-dark bg-primary">
+        {/* <nav className="navbar navbar-expand-lg navbar-primary bg-primary"> */}
             <a className="navbar-brand" href="/">
                 <h2 className="text-white">Google Book Search</h2>
             </a>
@@ -16,6 +17,10 @@ function Nav() {
                     </li>
                 </ul>
             </div>
+            <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
         </nav>
     );
 }
